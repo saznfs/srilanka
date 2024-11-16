@@ -497,6 +497,11 @@ body {
 	background: url('images/contact.jpg') no-repeat center center/cover;
 }
 
+/*Faq page styles*/
+.banner-faq {
+	background: url('images/faq.jpg') no-repeat center center/cover;
+}
+
 
 iframe {
     width: 100%; /* Make the iframe take up the full width of its container */
