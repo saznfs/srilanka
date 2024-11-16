@@ -215,12 +215,12 @@ body {
 }
 
 .footer img {
-	width: 400px; /* Adjust pic size here */
+	width: 33%; /* Adjust pic size here */
     height: auto;
 }
 
 .footer-signup {
-    margin-bottom: 30px;
+    margin-bottom: 2.5%;
 }
 
 .footer-signup h2 {
@@ -236,12 +236,16 @@ body {
     border: 2px solid #fff;
     border-radius: 30px;
     overflow: hidden;
-    max-width: 500px;
+    max-width: 40%;
     width: 100%;
+	
 }
 
 .signup-form input[type="email"] {
-    padding: 10px 15px;
+    padding-left: 4%;
+	padding-bottom: 3.3%;
+	padding-top: 2.8%;
+	
     border: none;
     outline: none;
     flex: 1;
@@ -251,10 +255,10 @@ body {
 }
 
 .signup-form button {
+	padding-right: 4%;
     background: none;
     color: #fff;
     border: none;
-    padding: 10px 20px;
     cursor: pointer;
     font-size: 20px;
 }
@@ -582,12 +586,14 @@ iframe {
 	
     /* Card section */
     .card-container {
-        display: block;
-        padding: 10px;
+        align-items: center;
+        padding: 1px;	
+        display: column;
+        gap: 10px;	
     }
-
+	
     .card {
-        width: 100%;
+        width: 75%;
         margin-bottom: 20px;
     }
 
@@ -609,19 +615,20 @@ iframe {
 
 	/* Footer Adjustments */
     .footer {
-        padding: 40px 10px; /* Reduces padding on smaller screens */
+        padding-top: 5%;
+		padding-bottom: 6%;
+		padding-left: 2%;
+		padding-right: 2%;
     }
+	
+	.footer img {
+		width: 100%;
+	}
 
-    .signup-form {
-        display: flex; /* Stacks email input and button */
+    .signup-form {  
         width: 100%; /* Makes it full width on small screens */
-		max-width: 400px;
-    }
-
-    .signup-form input[type="email"] {
-        width: 100%; /* Full width for input */
-        margin-bottom: 6px; /* Adds spacing between input and button */
-    }
+		max-width: 70%;
+    }  
 
     /* Social Media Icon Adjustments */
     .social-media a {
@@ -653,16 +660,5 @@ iframe {
     }
     .destinationShort h2 {
         font-size: 24px;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .search-bar input {
-        padding: 10px;
-        font-size: 14px;
-    }
-
-    .navbar {
-        padding: 10px;
     }
 }
