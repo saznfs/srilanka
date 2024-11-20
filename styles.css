@@ -508,6 +508,10 @@ body {
 		background: url('https://saznfs.github.io/srilanka/images/galle.jpg') no-repeat center center/cover;
 	}
 
+	.banner-galle h1 {
+	margin-top: 100px;
+	}
+
 iframe {
     width: 100%; /* Make the iframe take up the full width of its container */
     height: 850px; /* Set initial height to 0 */
