@@ -494,17 +494,6 @@ body {
 	background: url('images/faq.jpg') no-repeat center center/cover;
 } 
 
-/*Destinations Pages*/
-	/*galle page styles*/
-	.banner-galle {
-		background: url('https://saznfs.github.io/srilanka/images/galle.jpg') no-repeat center center/cover;
-	}
-
-	/*yala page styles*/
-	.banner-yala {
-		background: url('images/yala.jpg') no-repeat center center/cover;
-	}
-
 iframe {
     width: 100%; /* Make the iframe take up the full width of its container */
     height: 850px; /* Set initial height to 0 */
