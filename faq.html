@@ -70,13 +70,13 @@
     <!-- Footer -->
     <footer class="footer">
 		<img src="logo/logo_pic.png">
-        <div class="footer-signup">
-            <h2>SIGN UP FOR UPDATES</h2>
-            <form class="signup-form">
-                <input type="email" placeholder="ENTER YOUR EMAIL ADDRESS" required>
-                <button type="submit">&#10140;</button>
-            </form>
-        </div>
+       <div class="footer-signup">
+		<h2>SIGN UP FOR UPDATES</h2>
+		<form class="signup-form" onsubmit="handleFormSubmit(event)">
+			<input id="email" type="email" placeholder="ENTER YOUR EMAIL ADDRESS" required>
+			<button type="submit">&#10140;</button>
+		</form>
+	</div>
         
         <nav class="footer-nav">
             <a href="index.html">Home</a>
